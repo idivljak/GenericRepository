@@ -7,29 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3038D7F82191CC5D001BBC4D /* GenericRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3038D7EE2191CC5D001BBC4D /* GenericRepository.framework */; };
-		3038D7FD2191CC5D001BBC4D /* GenericRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3038D7FC2191CC5D001BBC4D /* GenericRepositoryTests.swift */; };
 		3038D7FF2191CC5D001BBC4D /* GenericRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = 3038D7F12191CC5D001BBC4D /* GenericRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3038D8092191CC7D001BBC4D /* GenericRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3038D8082191CC7D001BBC4D /* GenericRepositoryProtocol.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3038D7F92191CC5D001BBC4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3038D7E52191CC5D001BBC4D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3038D7ED2191CC5D001BBC4D;
-			remoteInfo = GenericRepository;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3038D7EE2191CC5D001BBC4D /* GenericRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3038D7F12191CC5D001BBC4D /* GenericRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GenericRepository.h; sourceTree = "<group>"; };
 		3038D7F22191CC5D001BBC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3038D7F72191CC5D001BBC4D /* GenericRepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3038D7FC2191CC5D001BBC4D /* GenericRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRepositoryTests.swift; sourceTree = "<group>"; };
-		3038D7FE2191CC5D001BBC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3038D8082191CC7D001BBC4D /* GenericRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericRepositoryProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3038D7F42191CC5D001BBC4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3038D7F82191CC5D001BBC4D /* GenericRepository.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				3038D7F02191CC5D001BBC4D /* GenericRepository */,
-				3038D7FB2191CC5D001BBC4D /* GenericRepositoryTests */,
 				3038D7EF2191CC5D001BBC4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				3038D7EE2191CC5D001BBC4D /* GenericRepository.framework */,
-				3038D7F72191CC5D001BBC4D /* GenericRepositoryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +53,6 @@
 				3038D8082191CC7D001BBC4D /* GenericRepositoryProtocol.swift */,
 			);
 			path = GenericRepository;
-			sourceTree = "<group>";
-		};
-		3038D7FB2191CC5D001BBC4D /* GenericRepositoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				3038D7FC2191CC5D001BBC4D /* GenericRepositoryTests.swift */,
-				3038D7FE2191CC5D001BBC4D /* Info.plist */,
-			);
-			path = GenericRepositoryTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,24 +87,6 @@
 			productReference = 3038D7EE2191CC5D001BBC4D /* GenericRepository.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3038D7F62191CC5D001BBC4D /* GenericRepositoryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3038D8052191CC5D001BBC4D /* Build configuration list for PBXNativeTarget "GenericRepositoryTests" */;
-			buildPhases = (
-				3038D7F32191CC5D001BBC4D /* Sources */,
-				3038D7F42191CC5D001BBC4D /* Frameworks */,
-				3038D7F52191CC5D001BBC4D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3038D7FA2191CC5D001BBC4D /* PBXTargetDependency */,
-			);
-			name = GenericRepositoryTests;
-			productName = GenericRepositoryTests;
-			productReference = 3038D7F72191CC5D001BBC4D /* GenericRepositoryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -152,9 +100,6 @@
 					3038D7ED2191CC5D001BBC4D = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
-					};
-					3038D7F62191CC5D001BBC4D = {
-						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
@@ -171,20 +116,12 @@
 			projectRoot = "";
 			targets = (
 				3038D7ED2191CC5D001BBC4D /* GenericRepository */,
-				3038D7F62191CC5D001BBC4D /* GenericRepositoryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3038D7EC2191CC5D001BBC4D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3038D7F52191CC5D001BBC4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3038D7F32191CC5D001BBC4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3038D7FD2191CC5D001BBC4D /* GenericRepositoryTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3038D7FA2191CC5D001BBC4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3038D7ED2191CC5D001BBC4D /* GenericRepository */;
-			targetProxy = 3038D7F92191CC5D001BBC4D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3038D8002191CC5D001BBC4D /* Debug */ = {
@@ -396,44 +317,6 @@
 			};
 			name = Release;
 		};
-		3038D8062191CC5D001BBC4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PH7K4ADL7R;
-				INFOPLIST_FILE = GenericRepositoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.execom.GenericRepositoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		3038D8072191CC5D001BBC4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PH7K4ADL7R;
-				INFOPLIST_FILE = GenericRepositoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.execom.GenericRepositoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,15 +334,6 @@
 			buildConfigurations = (
 				3038D8032191CC5D001BBC4D /* Debug */,
 				3038D8042191CC5D001BBC4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3038D8052191CC5D001BBC4D /* Build configuration list for PBXNativeTarget "GenericRepositoryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3038D8062191CC5D001BBC4D /* Debug */,
-				3038D8072191CC5D001BBC4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
