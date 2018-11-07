@@ -3,20 +3,20 @@
 Pod::Spec.new do |s|
 
   s.name         = "GenericRepository"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "This is generic repository"
   s.description  = "This is a longer version is summary"
 
   s.homepage     = "https://github.com/idivljak/GenericRepository"
 
-  s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = "MIT"
+ s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "idivljak" => "ivan93.ns@hotmail.com" }
   s.platform     = :ios, "10.0"
 
 
-  s.source       = { :git => "https://github.com/idivljak/GenericRepository.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/idivljak/GenericRepository.git", :tag => "1.0.0" }
 
   s.source_files  = "GenericRepository/**/*"
 
